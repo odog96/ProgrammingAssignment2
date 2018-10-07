@@ -13,7 +13,6 @@
 ## makecachematrix -function created to support CacheSolve function 
 ## details shown in comments below. Requires input matrix and assignment
 ## to object. Then can use cachematrix funtion afterwards.
-
 makecachematrix <- function(x = matrix()) {
     ## 1. Resets the "inv.matrix" solution.
     inv.matrix <- NULL
